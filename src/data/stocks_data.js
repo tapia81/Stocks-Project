@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_KEY = `Your Api Key`;
-const BASE_URL = `https://sandbox.iexapis.com/stable/stock/market/collection/list?collectionName=mostactive&token=${API_KEY}`;
+const BASE_URL = `https://cloud.iexapis.com/stable/stock/market/collection/list?collectionName=mostactive&token=${API_KEY}`;
 
 const fetchData = async () => {
 	let response = await axios.get(BASE_URL);
