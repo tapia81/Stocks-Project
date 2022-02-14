@@ -1,0 +1,88 @@
+h1,
+h2 {
+	color: white;
+	font-size: 2em;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 3vh;
+	background-color: rgb(16%, 15%, 16%);
+}
+
+.header {
+	margin-left: 10vw;
+	margin-top: 2vh;
+	width: 100vw;
+	font-weight: bold;
+	background-color: rgb(16%, 15%, 16%);
+}
+
+.stock-section-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1vw 1vw;
+	width: 100vw;
+	contain: content;
+	background-color: black;
+}
+
+.stock-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3vh;
+	padding: 1vh 3vw;
+	width: 91vw;
+	height: 20vh;
+	border-color: rgb(16%, 15%, 16%);
+	border-style: solid;
+	border-width: 5px;
+	contain: content;
+}
+
+.stock-content-left,
+.stock-content-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	gap: 10px;
+	width: 35vw;
+	height: 15vh;
+	contain: content;
+}
+
+.stock-content-right {
+	padding-left: 60px;
+}
+
+.price-container,
+.percent-change-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	height: 5vh;
+}
+
+.symbol-container,
+.company-name-container {
+	display: flex;
+	flex-direction: column;
+	height: 5vh;
+}
+
+.company-name-container h2 {
+	font-size: 1rem;
+	color: grey;
+}
+
+.percent-change-container :first-child {
+	border-radius: 7px;
+	padding: 0.3vw;
+}
