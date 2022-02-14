@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import fetchData from '../services/stocks_data';
+import fetchData from '../data/stocks_data';
 
 export default function Stocks() {
 	const [ percentColor, setPercentColor ] = useState('rgb(35%, 77%, 23%)');
